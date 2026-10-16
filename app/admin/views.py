@@ -196,3 +196,9 @@ def update_editor_contents():
     db.session.commit()
 
     return 'OK', 200
+
+
+@admin.route('/users/export')
+def export_users():
+    users = User.query.order_by(User.id).all()
+    return {'users': [{'email': u.email, 'role': u.role.name} for u in users]}
