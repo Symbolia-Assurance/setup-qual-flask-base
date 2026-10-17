@@ -1,0 +1,54 @@
+{
+  "app_objects": [
+    {
+      "factory": "create_app",
+      "module": "app",
+      "name": "app"
+    },
+    {
+      "module": "app.account.views",
+      "name": "account"
+    },
+    {
+      "module": "app.admin.views",
+      "name": "admin"
+    },
+    {
+      "module": "app.main.views",
+      "name": "main"
+    }
+  ],
+  "app_roots": [
+    "app"
+  ],
+  "elevation_writers": [],
+  "execution_authorized": false,
+  "hardware_authorized": false,
+  "id": "flask-0b08708eaf7e",
+  "idiom": "flask-session-decorator",
+  "industrial_release_authorized": false,
+  "language": "python",
+  "libraries": [
+    "config",
+    "faker",
+    "flask_assets",
+    "flask_compress",
+    "flask_login",
+    "flask_mail",
+    "flask_rq",
+    "flask_sqlalchemy",
+    "flask_sslify",
+    "flask_wtf",
+    "sqlalchemy",
+    "wtforms"
+  ],
+  "physical_validation": false,
+  "public_routes": [],
+  "registrations_complete": true,
+  "release_allowed": false,
+  "schema": "assure.python-auth.declaration/v1",
+  "self_approved": false,
+  "session_identity_key": "_user_id",
+  "signout_views": [],
+  "simulation": true
+}
